@@ -1,0 +1,408 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+body {
+    background-color: #FFF7F0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 16px 32px 16px;
+}
+
+.header img {
+    width: 48px;
+    height: 48px;
+}
+
+.free {
+    color: white;
+    background-color: #030303;
+    border-style: none;
+    border-radius: 28px;
+    padding: 8px 28px 8px 27px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 28px;
+    align-self: center;
+}
+
+.intro {
+    color: #030303;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 45.36px;
+}
+
+.introp {
+    color: #7A746E;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 16px 29px 0 29px;
+    padding: 0 16px;
+}
+
+.img {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.img h3 {
+    align-self: flex-start;
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30.24px;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 32px;
+}
+
+.galak , .melan, .cyan, .lired {
+    width: 343px;
+    height: 364px;
+    background-color: #755CDE;
+    border-radius: 8px;
+}
+
+.summer , .pink {
+    width: 159px;
+    height: 182px;
+    background-color: #F6A560;
+    border-radius: 8px;
+}
+
+.pink {
+    background-color: #F39E9E;
+}
+
+.lired {
+    height: 158px;
+    background-color: #EB7565;
+}
+
+.cyan , .melan{
+    height: 182px;
+    background-color: #61C4B7;
+}
+
+.melan {
+    background-color: #552049;
+}
+
+.uiapp {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 24px;
+}
+
+.last {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+}
+
+.second {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.second img {
+    width: 300px;
+    height: 300px;
+}
+
+.each {
+    margin: 40px 16px 100px 16px;
+}
+
+.second h2 {
+    color: #030303;
+    font-size: 26px;
+    line-height: 32.76px;
+}
+
+.sectionp {
+    color: #7A746E;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 24px 0;
+}
+
+.secimg {
+    background-color: #EB7565;
+}
+
+.threeimg {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    overflow: hidden;
+    margin: 32px 0;
+}
+
+.javasc h2 {
+    text-align: center;
+    color: #030303;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.threeimg img {
+    width: 270px;
+    height: 180px;
+}
+
+.box {
+    text-align: center;
+}
+
+.arrow {
+    width: 64px;
+    height: 64px;
+    border-style: none;
+    border-radius: 50%;
+    background: #030303 url(image/left.png) no-repeat center;
+}
+
+.right {
+    background-image: url(image/right.png);
+    margin-left: 16px;
+}
+
+.litpink {
+    background-color: #EB7565;
+}
+
+.black {
+    background-color: #030303;
+    color: white;
+    text-align: center;
+    max-width: 1110px;
+    width: 91.46666667%;
+    margin: 100px auto 40px auto;
+    border-radius: 10px;
+    padding: 49px 24px 48px 24px;
+}
+
+.black h3 {
+    color: #FFF7F0;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 32.76px;
+}
+
+.footerp {
+    color: #FFF7F0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    padding: 24px 0;
+}
+
+.change {
+    margin-top: 0;
+}
+
+@media all and (min-width: 710px) {
+    .header {
+        margin: 34px 40px 64px 39px;
+    }
+
+    .galak, .lired, .cyan, .melan {
+        width: 333px;
+    }
+
+    .summer , .pink {
+        width: 155px;
+    }
+
+    .change {
+        margin: 56px 39.5px;
+    }
+
+    .free {
+        font-size: 16px;
+        padding: 14px 45px;
+    }
+
+    .header img {
+        width: 64px;
+        height: 64px;
+    }
+
+    h1 {
+        font-size: 44px;
+        line-height: 55.44px;
+    }
+
+    .introp ,.sectionp , .footerp {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .introp {
+        margin: 27px 58.5px 0 58.5px;
+    }
+    .section {
+        margin-top: 64px;
+    }
+    .second {
+        margin: 120px 0;
+        display: flex;
+        text-align: start;
+        gap: 69px;
+        align-items: center;
+    }
+
+    .second h2 , .black h3 {
+        font-size: 32px;
+        line-height: 40.32px;
+    }
+
+    .sectionp {
+        text-align: start;
+    }
+
+    .each {
+        margin: 0 40px 0 0;
+    }
+    .second img {
+        width: 364px;
+        height: 364px;
+        margin-left: -40px;
+    }
+
+    .threeimg {
+        margin: 56px 0;
+    }
+
+    .threeimg img {
+        width: 540px;
+        height: 360px;
+    }
+
+    .footerp {
+        padding: 26px 0;
+    }
+
+    .black {
+        padding: 56px 75px 64px 75px;
+    }
+}
+
+
+@media all and (min-width:1397px) {
+    .last {
+        flex-direction: column;
+    }
+
+    .header {
+        margin: 34px 164px 66px 165px;
+    }
+
+    .melan {
+        width: 354px;
+        height: 158px;
+    }
+
+    .galak, .lired, .cyan, .melan {
+        width: 354px;
+    }
+
+    .summer , .pink {
+        width: 164px;
+    }
+
+    .change {
+        margin: 56px 164px 64px 165px;
+    }
+
+    .free:hover , .arrow:hover {
+        background-color: #755CDE;
+        cursor: pointer;
+    }
+
+    .secimg:hover , .litpink:hover {
+        background-color: #F6A560;
+    }
+
+    h1 {
+        font-size: 56px;
+        line-height: 70.56px;
+    }
+    .introp {
+        max-width: 730px;
+        margin: 27px auto 0 auto;
+        padding: 0;
+    }
+
+    .section {
+        margin-top: 80px;
+    }
+
+    .second {
+        margin: 136px 165px 88px 165px;
+        gap: 125px;
+    }
+
+    .second img {
+        margin: 0;
+        width: 445px;
+        height: 445px;
+    }
+
+    .each {
+        margin: 0;
+    }
+
+    .each h2 {
+        font-size: 40px;
+        line-height: 50.4px;
+    }
+
+    .sectionp {
+        margin: 34px 0 32px 0;
+    }
+
+    .black {
+        display: flex;
+        justify-content: center;
+        text-align: start;
+        justify-content: space-between;
+        padding: 81px 95px 80px 65px;
+    }
+
+    .separate {
+        width: 540px;
+    }
+
+    .black h3 {
+        font-size: 40px;
+        line-height: 50.4px;
+    }
+
+    .footerp {
+        padding: 25px 0 0 0;
+    }
+}
